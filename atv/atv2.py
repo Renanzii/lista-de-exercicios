@@ -1,0 +1,7 @@
+tupla_vazi = ()
+tupla_vazi += (1,)
+tupla_vazi += (2,)
+tupla_vazi +=(3,)
+tupla_vazi +=(4,)
+tupla_vazi +=(5)
+print(tupla_vazi)
