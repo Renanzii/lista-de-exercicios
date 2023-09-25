@@ -1,0 +1,2 @@
+cores_hex = {'Vermelho': '#FF0000','Verde': '#00FF00','Azul': '#0000FF','Amarelo': '#FFFF00','Roxo': '#800080','Laranja': '#FFA500','Rosa': '#FFC0CB','Preto': '#000000','Branco': '#FFFFFF','Cinza': '#808080'}
+print(cores_hex)
