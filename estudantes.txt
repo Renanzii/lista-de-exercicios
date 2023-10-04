@@ -1,0 +1,1 @@
+nome : jose, idade: 18, curso: infor
