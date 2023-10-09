@@ -1,23 +1,13 @@
-import json
 
 
-nome_arquivo = 'estudantes.json'
+
+nome_arquivo = 'estudantes.txt'
 
 
-try:
-    with open(nome_arquivo, 'r') as arquivo:
-        dicionario_estudantes =json.load(arquivo)
+with open(nome_arquivo, 'r') as arquivo:
+        
 
-if dicionario_estudantes:
-    print("informaçoes do estudante")
-    for matricula, informacoes in dicionario_estudantes.items():
-        print(f"matricula:{matricula}")
-        print(f"nome:{informacoes['nome']}")
-        print(f"idade:{informacoes['idade']}")
-        print(f"curso:{informacoes['curso']}")
-        print("---------------------")
-    else:
-        print("não há informaçoes do estudante")
 
-except FileExistsError:
-print(f"o arquivo{nome_arquivo} nao foi encontrado")
+    for n in nome_arquivo:
+        print(f"a {n}")
+       
