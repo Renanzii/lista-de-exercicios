@@ -1,0 +1,2 @@
+escreva no arquivo 1
+escreva no arquivo 2

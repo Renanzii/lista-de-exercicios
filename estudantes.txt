@@ -1,0 +1,2 @@
+nome: jose,idade: 18,curso: informatica
+nome: renan,idade: 18,curso: informatica
